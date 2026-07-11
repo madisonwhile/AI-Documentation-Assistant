@@ -1,1 +1,17 @@
+##Version 1
+Started out as a simnple n8n workflow. I had no webhooks yet, no backened proxy, no summary histroy and no frontend. 
+But then I thought I could make this a real user experience
 
+---
+##Version 2
+- Added webhook into workflow
+- Created simple but aesthetic UI frontend within Lovable
+- I ran into a CORS issue so I added Supabase as a backened proxy
+- Got Lovable to add 'open google doc' button, so the user can open it into a new tab
+- Also used Supabase to log each summary history. Holds URL, Id, summary and date
+
+---
+##Version 3
+- I tried to add a way for users to have full ownership and accessibility to any docs made. Since each doc was being created in my Google Drive account
+- Tried solving this with Google log-in, but I just could not because of an authentication problem from my side
+- So I tried email log-in, but the magic link from Supabase wouldn't bring me back to the main UI in Lovable. I could have found other solution admittably 
