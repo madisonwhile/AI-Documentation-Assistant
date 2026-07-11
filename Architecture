@@ -1,1 +1,41 @@
+##Goal
+The goal was to be able to turn Google Docs into AI-generated summaries while automatically creating a new Google Doc with this new summarised version.
+On top of that, the goal was also to make it easier to pass a detialed document onto another team or person. Instead of reading several apges with unorganised information, rather read half the amount of pages with all the key context.
 
+---
+##Workflow structure
+Frontend
+      ↓
+Webhook
+      ↓
+n8n
+      ↓
+Google Docs
+      ↓
+AI
+      ↓
+Create Summary
+      ↓
+Create New Google Doc
+      ↓
+Return URL
+
+---
+##The node structure in n8n
+1. Recieving Google Docs ID node
+2. Combine text node - makes it more digestable for the AI agent
+3. AI agent + OpenAI chat model
+4. Create new Google Docs node
+5. Update Google Docs node
+6. Returned webhook
+
+---
+#Inputs
+- Google Docs URL or ID
+- The length in which you want the summarisation 
+- The style of summarisation you want
+- Possible additional requests
+
+---
+##Outputs
+- A new Google Docs with the summarised information
