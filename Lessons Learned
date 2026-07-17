@@ -1,1 +1,12 @@
+##Big Lessons
+- Authentication adds complexity.
+- Building a complete product is very different from building prototypes.
+- API's fail in unexpected ways.
+- You can always push a product to be better, instead of deciding it is "good enough". 
 
+---
+##What surprised me
+- Most of my time wasn't spent on building the workflow itself. It was spent on debugging intergrations between services. The most time-consuming moment was figuring out how to solve the CORS issue I ran into. I had settled on using Supabase as a proxy-which was very tedicous to implenment. 
+
+---
+##I am still actively tweaking and learning as I improve this assistant
