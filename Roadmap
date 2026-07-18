@@ -1,1 +1,20 @@
+##Version 3
+As I mentioned in the development log, version 3 was tricky to get past so I had hit pause on it. However, I plan on completeing and going beyond it. What version 3 will consist of eventually:
+- Allowing users to log-in to their own Google Drive account so the docs summarised will be saved in there instead, allowing full ownership.
+- Each user having their own saved account.
+- Email intergration, so the docs can be shared with another person or team.
+- Improve the formatting of the new summarised document, right now it is a bit basic. 
 
+---
+##Long-term (beyond version 3)
+Eventually I hope to turn this simple documentation assistant into an enterprise tool. With:
+- Multiple document types
+- PDF support
+- Workspace dashboard
+- AI chat over documents
+- Different AI models
+- Summarisation templates
+- Intergrations with internal systems
+
+I hope to turn this personal tool into something that everybody can use. I see potential for agency's and other businesses being able to use this.
+This simply wont be just a "documentation assistant" anymore, it will become a knowledge management system. 
